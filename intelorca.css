@@ -1,0 +1,299 @@
+body {
+    background: #eee;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Segoe UI", Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    font-weight: 200;
+    margin: 0 0 12px 12px;
+}
+
+@media (min-width: 900px) {
+    h2 {
+        margin: 0 0 12px -40px;
+    }
+}
+
+p {
+    margin: 8px 0;
+}
+
+a {
+    color: #44f;
+    text-decoration: none;
+}
+a:hover {
+    color: #77f;
+    text-decoration: none;
+}
+
+.no-overflow {
+    overflow: hidden;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+}
+
+/* Other */
+.central {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.site-extern {
+    background-image: url('images/extern_icons.png');
+    float: right;
+    height: 32px;
+    margin-left: 16px;
+    width: 32px;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+.site-extern:hover {
+    opacity: 1.0;
+}
+
+#site-extern-wiki     { background-position-x: 0px; }
+#site-extern-github   { background-position-x: -32px; }
+#site-extern-twitter  { background-position-x: -64px; }
+#site-extern-youtube  { background-position-x: -96px; }
+#site-extern-linkedin { background-position-x: -128px; }
+
+/******************************
+ * Header
+ ******************************/
+#header {
+    background-color: #45267D;
+    color: #eee;
+    padding: 8px 0;
+}
+
+header {
+    background-image: url("images/intelorca.png");
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+    height: 96px;
+    padding-left: 100px;
+}
+
+header h1 {
+    margin: 0 0 4px 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 52px;
+    font-weight: 200;
+    line-height: 52px;
+}
+
+header h3 {
+    margin: 0 0 0 32px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+header h3 sub {
+    font-size: 14px;
+}
+
+header h3 em {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/******************************
+ * Skills
+ ******************************/
+#skills {
+    background-color: #cca;
+    color: #333;
+}
+#skills h2 {
+    border-bottom: 1px solid #bb9;
+}
+
+#skills ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+#skills li {
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    float: left;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    line-height: 230px;
+}
+
+#skill-algorithmdesign     { background-image: url(images/skill-algorithmdesign.png);     }
+#skill-assembly            { background-image: url(images/skill-assembly.png);            }
+#skill-gamedev             { background-image: url(images/skill-gamedev.png);             }
+#skill-graphicsprogramming { background-image: url(images/skill-graphicsprogramming.png); }
+#skill-reverseeng          { background-image: url(images/skill-reverseeng.png);          }
+#skill-softwareeng         { background-image: url(images/skill-softwareeng.png);         }
+#skill-webdev              { background-image: url(images/skill-webdev.png);              }
+
+/******************************
+ * Projects
+ ******************************/
+#projects {
+    background-color: #ddd;
+    color: #333;
+}
+#projects h2 {
+    border-bottom: 1px solid #bbb;
+}
+
+.project {
+    background-color: #ccc;
+    font-size: smaller;
+    text-align: justify;
+    padding: 16px;
+    margin: 18px 0;
+    overflow: hidden;
+}
+
+.project:nth-child(odd) .project-image
+{
+    float: right;
+}
+
+.project-image {
+    display: block;
+    float: left;
+    width: 128px;
+    margin: 12px;
+}
+
+.project-name {
+    display: block;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.project-links a {
+    display: block;
+}
+
+/******************************
+ * Employment
+ ******************************/
+#employment {
+    background-color: #eee;
+    color: #333;
+}
+#employment h2 {
+    border-bottom: 1px solid #ddd;
+}
+
+.employment-logo {
+    float: left;
+    margin-right: 12px;
+    width: 256px;
+}
+
+/******************************
+ * Education
+ ******************************/
+#education {
+    background-color: #eee;
+    color: #333;
+}
+#education h2 {
+    border-bottom: 1px solid #ddd;
+}
+
+.education-logo {
+    float: right;
+    margin-left: 12px;
+    width: 256px;
+}
+
+/******************************
+ * Competitions
+ ******************************/
+#competitions {
+    background-color: #A3DAE1;
+    color: #333;
+}
+#competitions h2 {
+    border-bottom: 1px solid #87BEC5;
+}
+
+#competitions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+#competitions li {
+    background-size: 100px 50px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    float: left;
+    width: 25%;
+    height: 60px;
+    text-align: center;
+    padding-top: 46px;
+}
+
+#competition-bio {
+    background-image: url(images/competition-bio.png);
+}
+#competition-hackmanchester {
+    background-size: 180px auto !important;
+    background-image: url(images/competition-hackmanchester.png);
+}
+#competition-techcrunch {
+    background-image: url(images/competition-techcrunch.png);
+}
+
+.outcome {
+    font-size: 12px;
+}
+
+/******************************
+ * Contact
+ ******************************/
+#contact {
+    background-color: #000;
+    color: #ccc;
+}
+#contact h2 {
+    border-bottom: 1px solid #222;
+}
+
+#contact hr {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 1px solid #111;
+    width: 400px;
+}
+
+.copyright {
+    border-top: 1px solid #222;
+    margin-top: 16px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+a.email {
+    color: #ccc;
+}
