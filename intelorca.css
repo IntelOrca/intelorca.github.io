@@ -202,6 +202,7 @@ header h3 em {
 
 .employment-logo {
     float: left;
+    margin-top: 12px;
     margin-right: 12px;
     width: 256px;
 }
