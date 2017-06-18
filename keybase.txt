@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/intelorca
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://intelorca.co.uk
+  * I am intelorca (https://keybase.io/intelorca) on keybase.
+  * I have a public key with fingerprint 5CEA D3F5 78EA D635 58A2  46F6 83A3 9AF9 74A4 6753
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a71884bf586c95646b76f43406f0f41eb025c9faadd7054fd6cabe306c85a0140a",
+            "fingerprint": "5cead3f578ead63558a246f683a39af974a46753",
+            "host": "keybase.io",
+            "key_id": "83a39af974a46753",
+            "kid": "0101a71884bf586c95646b76f43406f0f41eb025c9faadd7054fd6cabe306c85a0140a",
+            "uid": "46819014b8703a8e1498015cd306f319",
+            "username": "intelorca"
+        },
+        "service": {
+            "hostname": "intelorca.co.uk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1496574715,
+    "expire_in": 157680000,
+    "prev": "ca3ed13056356deab86f43357cfccf4f0110b83811c88cae0e131f4be397de84",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.71
+Comment: https://keybase.io/crypto
+
+yMIdAnicrVJbSFRBGF7TioQouoBWYB6rh9yWM3tm5syuGZT0UrsIIUVhHebMmbN7
+2MvZzl5KRUMqrLcKobIwRATJogzsQhdMiu5FaAZFIVJG+pSQET7YHKmX6LF5+Zl/
+vu+b7//4HyzM9xTm4eLy8iOD30rznt1vy3p2K+PTDZJuG3VSsEGK8dnC4wZPZ7SY
+ZUhBSQYyoCogBOomIpgFEIZYV7EJFShjUzYh4LrsRyxgUmoYqoygaWBGda7ImBFE
+ZQBlKnkl00pGuJNyrGRGyCLGqaGYSCWiYgUhQv0Qm5goVAlQM6BCCrGKFEGM2mmX
+IczpNM19li164qLN2vsH/j/7zs7KQUxAQLR0osoKJRzAAJEBYoZAmwoIuMA0d5I0
+wQVazMjjtsOo1OiVRDtnMe4m647yN8THbF82Jvgpx87YzI6Lx2gmkwq63ExdygUf
+4Lr2W0bTraQhohSEHHfSlp2UgkAgWcZydYUvjFSoAuSV+MGU5XDNchFIxUQWx/2G
+54Qkowo3gCIjET42ONWJG42CVGYyZkJTBkDWiUIAYIQwymUOFGBCEU9ANTiBkjvY
+/qQtBaGwSSNCMm1FkjSTdbjUONBfW+DJK/TMmzvHXTFP4YLFfxav88r8n3l3doUn
+V3XnY9I8/jE3XtORONR1vuJp1U5/fFQb6D2x6fjbz6vD8HXo2snaqfI5l7lvY3he
+5dTLbSWL6lvubq0bVobbJyZ81WNw3aInmqe64N6FCT9P3KkIncuh6f5KsKLscMV3
+Y99Q3Z6Bgv2tl9pn5qtdn4piiR/Pc19GiLfo6NoevORUeC6LLXtc9XWmNLT01aO3
+vcfGigfD2sqrJa3bh0bP9J22lj26zTpD6bJ3Z9+P3Tz+riop0R2dW55kRyqbX3gj
+y63uvYUPb030s6aaLWdiRRsar9ez7OcPHaMnmhb3SdE3N+gab9vk+vunrc3tr3qi
+rfGZlosVw6s33fwFCPE/DA==
+=Xji5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/intelorca
+
+==================================================================
